@@ -1,43 +1,24 @@
-# Astro Starter Kit: Minimal
+# James Vongphasouk's blog and portfolio (blogfolio!)
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Hi, welcome to my blogfolio's source code. I believe in open source, so if you like any part, 
+feel free to ctrl+c -> ctrl+v, make an issue/pr, or fork! 
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Tech
 
-## 🚀 Project Structure
+I used [11ty](https://11ty.dev) prior, but I wanted to try dipping my toes in 
+[Astro](https://astro.build). 90% of it comes from not wanting to relearn nunjucks and the other
+10% comes from my seeing Astro in the wild wild west of Reddit.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Helpful links to copy my site
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+tl:dr `npm create astro@latest`
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+I don't want to rewrite workflows or how *my* setup needs its own documentation. Instead, I'll just
+link the official docs I used to get up and running:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- [Astro Docs](https://docs.astro.build/en/getting-started/)
+    - [Deploy to Github Pages](https://docs.astro.build/en/guides/deploy/github/)
+- [Where I bought my domain (not sponsored)](https://www.namecheap.com/)
+- [The reddit post that started it all for me](https://www.reddit.com/r/astrojs/comments/1mfe9h1/astro_vs_hugo/)
+    - [Impressive performance](https://www.reddit.com/r/astrojs/comments/1o08rvm/99_score_with_a_hero_carousel_and_videos_astro_is/)
+- More links to come as I build
