@@ -1,0 +1,79 @@
+/* * { */
+/* 	border: 1px solid red; */
+/* } */
+
+/* CSS RESET */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+}
+
+html {
+	color-scheme: dark light;
+}
+
+body {
+	min-height: 100vh;
+}
+
+img,
+picture,
+svg,
+video {
+	display: block;
+	max-width: 100%;
+}
+
+/* ALL ELEMENTS IN CENTER */
+header,
+main,
+footer {
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20px;
+}
+
+/* HEADER STYLES */
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 0px;
+}
+
+nav>ul {
+	list-style-type: none;
+	display: flex;
+	gap: 15px
+}
+
+nav>ul>li>a,
+nav>a {
+	color: white;
+	/* TODO: use color scheme*/
+	text-decoration: none;
+	padding: 12px 4px;
+}
+
+
+nav>a {
+	font-size: 28px;
+}
+
+nav>ul>li>a:hover,
+nav>a:hover {
+	background-color: darkslateblue;
+	border-radius: 10px;
+}
+
+h1 {
+	font-size: 24px;
+}
