@@ -1,7 +1,28 @@
 ---
-
+import Social from "./Social.astro";
 ---
 
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+</style>
 <footer>
-  <p>TODO: footer things like contact and socials</p>
+  <p>
+    Copyright &copy; 2025 James Vongphasouk | <a
+      href="mailto:james.vongpha@gmail.com">Contact</a
+    >
+    |
+    <Social platform="GitHub" username="JamesVpog" />
+    |
+    <Social platform="LinkedIn" username="in/james-vongpha" />
+  </p>
 </footer>

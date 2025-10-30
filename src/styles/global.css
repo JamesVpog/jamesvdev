@@ -68,10 +68,9 @@ nav>a {
 	font-size: 20px;
 }
 
-nav>ul>li>a:hover,
-nav>a:hover {
-	background-color: darkslateblue;
-	border-radius: 10px;
+
+a:hover {
+	text-decoration: underline;
 }
 
 h1 {
