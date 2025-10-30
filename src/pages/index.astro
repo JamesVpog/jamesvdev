@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "James Vongphasouk";
 const jobLocation = "Intermountain Health";
+const age = 24;
 import { Image } from "astro:assets";
 import profileImage from "../../assets/profile.jpeg";
 ---
@@ -16,21 +17,21 @@ import profileImage from "../../assets/profile.jpeg";
       height={150}
     />
     <ul>
-      <li>Software Engineer who tackles difficult problems</li>
+      <li>
+        Software engineer, professional Redditor, and Stack Overflow
+        archaeologist
+      </li>
       <li>
         @ {jobLocation} building backend services for healthcare data
       </li>
-      <li>
-        Completed my MS in Computer Science from the Colorado School of Mines in
-        2024
-      </li>
-      <li>Outside of software, I watch/play League of Legends and chess</li>
+      <li>MS in Computer Science, Colorado School of Mines (2024)</li>
+      <li>{age}+ YOE in living</li>
     </ul>
   </div>
   <style>
     .container {
       display: flex;
-      gap: 1rem; /* Space between image and ul */
+      gap: 1rem;
     }
     .container > img {
       padding: 5px;
@@ -39,6 +40,8 @@ import profileImage from "../../assets/profile.jpeg";
       min-width: 0;
       flex: 1;
       overflow-wrap: break-word;
+      display: flex;
+      flex-direction: column;
     }
     li {
       margin: 10px 0px;
