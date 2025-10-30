@@ -13,15 +13,15 @@ import profileImage from "../../assets/profile.jpeg";
       src={profileImage}
       alt="Profile of James Vongphasouk"
       layout="constrained"
-      width={150}
-      height={150}
+      width={200}
+      height={200}
     />
     <ul>
       <li>Software engineer, professional Redditor, and cat-dad</li>
       <li>
-        @ {jobLocation} building backend services for healthcare data
+        @ {jobLocation} building scalable backend services for healthcare data
       </li>
-      <li>MS in Computer Science, Colorado School of Mines (2024)</li>
+      <li>BS+MS in Computer Science, Colorado School of Mines (2024)</li>
       <li>{age}+ years of experience (at living)</li>
     </ul>
   </div>
@@ -39,9 +39,9 @@ import profileImage from "../../assets/profile.jpeg";
       overflow-wrap: break-word;
       display: flex;
       flex-direction: column;
-    }
-    li {
-      margin: 10px 0px;
+      gap: 5px;
+      list-style-type: circle;
+      margin-left: 20px;
     }
   </style>
 </BaseLayout>

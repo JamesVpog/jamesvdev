@@ -12,15 +12,34 @@
 * {
 	margin: 0;
 	padding: 0;
-	font: inherit;
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
-html {
+
+:root {
 	color-scheme: dark light;
 }
 
+@media (prefers-color-scheme: light) {
+	:root {
+		--text-color: black;
+		--bg-color: white;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--text-color: white;
+		--bg-color: #1a1a1a;
+	}
+}
+
 body {
+	color: var(--text-color);
+	background-color: var(--bg-color);
 	min-height: 100vh;
+	font-size: 18px;
+	line-height: 1.6;
 }
 
 img,
@@ -29,6 +48,12 @@ svg,
 video {
 	display: block;
 	max-width: 100%;
+}
+
+
+
+main {
+	flex: 1;
 }
 
 /* ALL ELEMENTS IN CENTER */
@@ -55,10 +80,8 @@ nav>ul {
 	gap: 15px
 }
 
-nav>ul>li>a,
-nav>a {
-	color: white;
-	/* TODO: use color scheme*/
+a {
+	color: inherit;
 	text-decoration: none;
 	padding: 12px 4px;
 }
@@ -73,8 +96,5 @@ a:hover {
 	text-decoration: underline;
 }
 
-h1 {
-	font-size: 24px;
-}
 
 /* TODO: make website responsive and friendly on mobile */
