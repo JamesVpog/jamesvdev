@@ -2,11 +2,19 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "James Vongphasouk";
 const jobLocation = "Intermountain Health";
+import { Image } from "astro:assets";
+import profileImage from "../../assets/profile.jpeg";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
   <div class="container">
-    <img src="../../assets/profile.jpeg" alt="Picture of James Vongphasouk" />
+    <Image
+      src={profileImage}
+      alt="Profile of James Vongphasouk"
+      layout="constrained"
+      width={150}
+      height={150}
+    />
     <ul>
       <li>Software Engineer who tackles difficult problems</li>
       <li>
@@ -25,7 +33,6 @@ const jobLocation = "Intermountain Health";
       gap: 1rem; /* Space between image and ul */
     }
     .container > img {
-      max-width: 200px;
       padding: 5px;
     }
     .container > ul {
