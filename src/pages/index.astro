@@ -1,8 +1,40 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-const pageTitle = "Home Page";
+const pageTitle = "James Vongphasouk";
+const jobLocation = "Intermountain Health";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <h2>Welcome to James Blogfolio!</h2>
+  <div class="container">
+    <img src="../../assets/profile.jpeg" alt="Picture of James Vongphasouk" />
+    <ul>
+      <li>Software Engineer who loves to mull over difficult problems</li>
+      <li>
+        @ {jobLocation} building backend services in for healthcare data
+      </li>
+      <li>
+        Completed my MS in Computer Science from the Colorado School of Mines in
+        2024
+      </li>
+      <li>Outside of software, I watch/play League of Legends and chess</li>
+    </ul>
+  </div>
+  <style>
+    .container {
+      display: flex;
+      gap: 1rem; /* Space between image and ul */
+    }
+    .container > img {
+      max-width: 200px;
+      padding: 5px;
+    }
+    .container > ul {
+      min-width: 0;
+      flex: 1;
+      overflow-wrap: break-word;
+    }
+    li {
+      margin: 10px 0px;
+    }
+  </style>
 </BaseLayout>
