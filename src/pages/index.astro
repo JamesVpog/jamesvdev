@@ -43,5 +43,18 @@ import profileImage from "../../assets/profile.jpeg";
       list-style-type: circle;
       margin-left: 20px;
     }
+    /* Mobile styles */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+      }
+
+      .container > ul {
+        margin-left: 20px;
+        width: 100%;
+      }
+    }
   </style>
 </BaseLayout>
