@@ -13,12 +13,14 @@ What does progress look like for someone who has always relied on academic feedb
 
 <br>
 <br>
+    
 Public school makes it really easy to flex. In other words, I can just look at the score I got on my final exam, compare it to my friends, and feel automatically superior. In a similar way, my parents would constantly compare me 
 to other children and boast about my metrics like GPA, extracurriculars, etc. Now that my prefrontal cortex is almost fully developed (24, yikes am I unc status?), I can confidently say that **none of that stuff matters in real life.**
 
 
 <br>
 <br>
+    
 Sure, it's nice to make your parents proud, but does that give you true satisfaction filling out parents wishlist? Where do I go now that I have a job and my own autonomy to make decisions beyond the classroom? 
 It's actually been griping at me a lot, and there is no clear answer. It almost gets to the conversation of "what is the meaning of life", but closer to "how did I motivate myself to do things that I actually want to do?" If you've 
 been reading this far and have been waiting for an answer, I don't have one. All I can tell you to do is to regularly self-reflect and make progress. 
