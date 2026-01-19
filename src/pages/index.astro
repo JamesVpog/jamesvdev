@@ -1,60 +1,18 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-const pageTitle = "James Vongphasouk";
-const jobLocation = "Intermountain Health";
-const age = 24;
-import { Image } from "astro:assets";
-import profileImage from "../../assets/profile.jpeg";
+import BlogPost from "../components/BlogPost.astro";
+const pageTitle = "Blog repository";
+const allPosts = Object.values(
+  import.meta.glob("./posts/*.md", { eager: true }),
+);
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <div class="container">
-    <Image
-      src={profileImage}
-      alt="Profile of James Vongphasouk"
-      layout="constrained"
-      width={200}
-      height={200}
-    />
     <ul>
-      <li>Software engineer and cat-dad</li>
-      <li>
-        @ {jobLocation} building scalable backend services for healthcare data
-      </li>
-      <li>BS+MS in Computer Science, Colorado School of Mines (2024)</li>
-      <li>{age}+ years of experience (at living)</li>
+        {
+        allPosts.map((post: any) => (
+            <BlogPost url={post.url} title={post.frontmatter.title} />
+        ))
+        }
     </ul>
-  </div>
-  <style>
-    .container {
-      display: flex;
-      gap: 1rem;
-    }
-    .container > img {
-      padding: 5px;
-    }
-    .container > ul {
-      min-width: 0;
-      flex: 1;
-      overflow-wrap: break-word;
-      display: flex;
-      flex-direction: column;
-      gap: 5px;
-      list-style-type: circle;
-      margin-left: 20px;
-    }
-    /* Mobile styles */
-    @media (max-width: 768px) {
-      .container {
-        flex-direction: column;
-        align-items: center;
-        text-align: left;
-      }
-
-      .container > ul {
-        margin-left: 20px;
-        width: 100%;
-      }
-    }
-  </style>
 </BaseLayout>
