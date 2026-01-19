@@ -33,5 +33,3 @@ Etc., etc., there would always be seemingly practical tradeoffs of me just speci
 <br>
 
 So I challenge myself to explore this year. It might be ugly and I've rewritten this exact sentence 20 different times, but its how life is. 
-
-P.S those TODOs for my About and Projects page are really becoming an eyesore
