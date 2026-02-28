@@ -24,9 +24,8 @@ I chose the Raspberry Pi 02w because of its small form factor and this impressiv
 
 <br>
 
-TODO: insert screenshot of setup
 
-![My calico cat loaf](../../../assets/kiki.jpg "Calico cat named Kiki!")
+![Picture of James and his cat](../../../assets/test.jpg "She is so fluffy!")
 
 <br>
 
@@ -37,7 +36,7 @@ There weren't any custom cases I really liked online, so I'm planning to design 
 
 <br>
 
-![My calico cat loaf](../../../assets/kiki.jpg "Calico cat named Kiki!")
+![very cool setup](../../../assets/setup.jpg "Mind the temporary camera setup!")
 
 Stay tuned for part 2!
 
